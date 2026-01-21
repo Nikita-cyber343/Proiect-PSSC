@@ -25,7 +25,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\CafeNoir.Application.csproj": {
+                "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\CafeNoir.Application.csproj"
+              },
+              "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj": {
+                "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj"
+              },
+              "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\CafeNoir.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\CafeNoir.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,9 +57,15 @@
               "target": "Package",
               "version": "[8.0.22, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -67,6 +83,210 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\CafeNoir.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\CafeNoir.Application.csproj",
+        "projectName": "CafeNoir.Application",
+        "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\CafeNoir.Application.csproj",
+        "packagesPath": "C:\\Users\\dolgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dolgo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj": {
+                "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj",
+        "projectName": "CafeNoir.Domain",
+        "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj",
+        "packagesPath": "C:\\Users\\dolgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dolgo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\CafeNoir.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\CafeNoir.Infrastructure.csproj",
+        "projectName": "CafeNoir.Infrastructure",
+        "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\CafeNoir.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dolgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dolgo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj": {
+                "projectPath": "C:\\Users\\dolgo\\OneDrive\\Рабочий стол\\Proiect-PSSC\\CafeNoir.Domain\\CafeNoir.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
