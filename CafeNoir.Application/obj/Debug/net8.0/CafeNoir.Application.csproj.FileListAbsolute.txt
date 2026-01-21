@@ -1,0 +1,15 @@
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\bin\Debug\net8.0\CafeNoir.Application.deps.json
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\bin\Debug\net8.0\CafeNoir.Application.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\bin\Debug\net8.0\CafeNoir.Application.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\bin\Debug\net8.0\CafeNoir.Domain.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\bin\Debug\net8.0\CafeNoir.Domain.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.csproj.AssemblyReference.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.AssemblyInfoInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.AssemblyInfo.cs
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.csproj.CoreCompileInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.366F9770.Up2Date
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\refint\CafeNoir.Application.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\CafeNoir.Application.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Application\obj\Debug\net8.0\ref\CafeNoir.Application.dll

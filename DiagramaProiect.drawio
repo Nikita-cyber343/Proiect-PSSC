@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CafeNoir Architecture" id="cafeNoir">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- CONTAINER PRINCIPAL -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1080" height="700" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="title" value="SISTEM CAFEНOIR - Management Comenzi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="480" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- CLIENT / PUNCT DE START -->
+        <mxCell id="client" value="Client&lt;br&gt;(Browser/Swagger)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- ORDERING CONTEXT -->
+        <mxCell id="ordering-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="320" height="420" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ordering-title" value="ORDERING CONTEXT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Workflow 1: Plasare -->
+        <mxCell id="workflow-plasare" value="Workflow:&lt;br&gt;Plasare Comandă" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Workflow 2: Anulare -->
+        <mxCell id="workflow-anulare" value="Workflow:&lt;br&gt;Anulare Comandă" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Commands -->
+        <mxCell id="cmd-plasare" value="PlaseazaComandaCommand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cmd-anulare" value="AnuleazaComandaCommand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Events -->
+        <mxCell id="event-plasare" value="ComandaPlasataEvent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="event-anulare" value="ComandaAnulataEvent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Sistem Tipuri -->
+        <mxCell id="tipuri-ordering" value="Sistem Tipuri&lt;br&gt;&lt;font size=&quot;2&quot;&gt;Email, Pret, NumeClient&lt;br&gt;Cantitate, ComandaId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="260" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- EVENT BUS (MassTransit) -->
+        <mxCell id="eventbus" value="MassTransit&lt;br&gt;(In-Memory Event Bus)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- SHIPMENT CONTEXT -->
+        <mxCell id="shipment-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="280" height="420" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="shipment-title" value="SHIPMENT CONTEXT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="860" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Consumer -->
+        <mxCell id="consumer" value="ComandaPlasataConsumer&lt;br&gt;&lt;font size=&quot;2&quot;&gt;(ascultă evenimente)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;strokeColor=#ff6f00;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="240" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Workflow 3: Expediere -->
+        <mxCell id="workflow-expediere" value="Workflow:&lt;br&gt;Expediere Comandă" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Event Expediata -->
+        <mxCell id="event-expediata" value="ComandaExpediataEvent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Sistem Tipuri Shipment -->
+        <mxCell id="tipuri-shipment" value="Sistem Tipuri&lt;br&gt;&lt;font size=&quot;2&quot;&gt;(același ca Ordering)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- BAZA DE DATE -->
+        <mxCell id="database" value="Bază de Date&lt;br&gt;SQL Server LocalDB&lt;br&gt;&lt;br&gt;&lt;font size=&quot;2&quot;&gt;Tabele:&lt;br&gt;- Comenzi&lt;br&gt;- Produse&lt;br&gt;- LiniiComanda&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1e1e1;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- SĂGEȚI (CONNECTIONS) -->
+        
+        <!-- Client → Ordering -->
+        <mxCell id="arrow1" value="POST /api/comenzi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="client" target="workflow-plasare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Event → EventBus -->
+        <mxCell id="arrow2" value="publică" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="event-plasare" target="eventbus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- EventBus → Consumer -->
+        <mxCell id="arrow3" value="consumă" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="eventbus" target="consumer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Ordering → DB -->
+        <mxCell id="arrow4" value="scrie/citește" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="ordering-box" target="database">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Shipment → DB -->
+        <mxCell id="arrow5" value="scrie/citește" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="shipment-box" target="database">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- LEGENDĂ -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="200" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-title" value="LEGENDĂ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="605" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-text" value="🔵 Command (input)&lt;br&gt;🟢 Event (output)&lt;br&gt;⚪ Workflow&lt;br&gt;📦 Sistem Tipuri&lt;br&gt;🔄 Event Bus&lt;br&gt;🗄️ Bază de Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="90" y="630" width="180" height="80" as="geometry" />
+        </mxCell>
+        
+       
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

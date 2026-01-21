@@ -1,0 +1,17 @@
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Infrastructure.deps.json
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Infrastructure.runtimeconfig.json
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Infrastructure.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Infrastructure.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Domain.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\bin\Debug\net8.0\CafeNoir.Domain.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.AssemblyInfo.cs
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.F48B332E.Up2Date
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\refint\CafeNoir.Infrastructure.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\CafeNoir.Infrastructure.genruntimeconfig.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Infrastructure\obj\Debug\net8.0\ref\CafeNoir.Infrastructure.dll

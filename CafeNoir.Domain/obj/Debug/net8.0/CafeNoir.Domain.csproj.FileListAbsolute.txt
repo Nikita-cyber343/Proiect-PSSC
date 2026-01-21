@@ -1,0 +1,11 @@
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\bin\Debug\net8.0\CafeNoir.Domain.deps.json
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\bin\Debug\net8.0\CafeNoir.Domain.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\bin\Debug\net8.0\CafeNoir.Domain.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.AssemblyInfoInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.AssemblyInfo.cs
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\refint\CafeNoir.Domain.dll
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\CafeNoir.Domain.pdb
+C:\Users\dolgo\OneDrive\Рабочий стол\Proiect-PSSC\CafeNoir.Domain\obj\Debug\net8.0\ref\CafeNoir.Domain.dll
